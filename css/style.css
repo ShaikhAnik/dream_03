@@ -1,0 +1,189 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+               /*HEADER START*/
+header{
+	background-color: #fff;
+	padding: 10px 0;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo{ 
+	width: 25%;
+    float: left;
+}
+.logo img {
+	width: 100%;
+}
+
+.menu{ 
+	width: 65%;
+	float: right;
+	margin-top: 12px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #626979;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0px 30px;
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.menu ul li a:hover {
+	color: #3CE2DF;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+               /*HEADER END*/
+
+                /*BANNER START*/
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	
+} 
+
+.b_content {
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 55px;
+    margin-bottom: 180px;
+    width: 21%;
+    padding: 24px 30px;
+}
+.b_content h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 40px;
+   
+}
+.b_content p {
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    line-height: 22px;
+ 
+}
+.b_content button {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    background: #40424F;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b_content button:hover{
+	color:#3CE2DF;
+}           
+.b_content button:focus{
+	outline: 0;
+}              
+                /*BANNER END*/
+
+               /*SERVICE START*/
+.service{
+    padding: 66px 0;
+}
+.single{
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding-right: 5%;
+	}
+
+.single:last-child{
+	padding-right: 0px;
+}	
+.single h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #93948F;
+	text-transform: capitalize;
+	margin:0;
+}
+.single p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #747476;
+	margin: 0;
+	line-height: 23px;
+}
+.single img{
+	width: 100%;
+	padding: 8px 0 30px;
+}
+.single button {
+    background-color: #2F405A;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    margin-top: 44px;
+}
+.single button:focus{
+	outline: 0;
+}
+
+                /*SERVICE END*/
+
+                /*FOOTER START*/
+
+footer{
+	    background-color: #fff;
+	    padding: 0px 0 20px;
+}
+.copy{
+    text-align: center;
+}
+.copy h3{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4f6ab3;
+    margin: 0;
+}
+.copy p{
+    font-family: sans-serif;
+    color: #4f6ab3;
+    font-size: 12px;
+}
+.copy span{
+    font-weight: 700;
+}
+.icon {
+    text-align: center;
+    padding: 6px 0 25px;
+}
+.icon img{
+}
+                /*FOOTER END*/
